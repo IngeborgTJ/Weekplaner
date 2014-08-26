@@ -1,0 +1,25 @@
+<%= form_for(@weekplan) do |f| %>
+  <% if @weekplan.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@weekplan.errors.count, "error") %> prohibited this weekplan from being saved:</h2>
+
+      <ul>
+      <% @weekplan.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :week %><br>
+    <%= f.text_field :week %>
+  </div>
+  <div class="field">
+    <%= f.label :plan %><br>
+    <%= f.text_field :plan %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
