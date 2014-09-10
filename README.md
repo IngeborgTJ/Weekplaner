@@ -1,4 +1,4 @@
-Ukeplan Applikasjon
+Ukeplan / Weekplaner 
 ===========
 
 Jeg har her laget en app med Ruby on Rails som skal hjelpe meg å holde styr på det jeg gjør av jobb uke for uke. / This is an app made with Ruby on Rails to help me organize my tasks better though out the week.
