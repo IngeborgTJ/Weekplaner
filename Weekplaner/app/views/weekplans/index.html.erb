@@ -17,7 +17,7 @@
         <td><%= weekplan.plan %></td>
         <td><%= link_to 'Show', weekplan %></td>
         <td><%= link_to 'Edit', edit_weekplan_path(weekplan) %></td>
-        <td><%= link_to 'Destroy', weekplan, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Delete', weekplan, method: :delete, data: { confirm: 'Are you sure you want to delete this weekplan?' } %></td>
       </tr>
     <% end %>
   </tbody>
