@@ -28,7 +28,7 @@ class WeekplansController < ApplicationController
 
     respond_to do |format|
       if @weekplan.save
-        format.html { redirect_to @weekplan, notice: 'Weekplan was successfully created.' }
+        format.html { redirect_to @weekplan, notice: 'The plan was successfully created.' }
         format.json { render action: 'show', status: :created, location: @weekplan }
       else
         format.html { render action: 'new' }
@@ -42,7 +42,7 @@ class WeekplansController < ApplicationController
   def update
     respond_to do |format|
       if @weekplan.update(weekplan_params)
-        format.html { redirect_to @weekplan, notice: 'Weekplan was successfully updated.' }
+        format.html { redirect_to @weekplan, notice: 'The plan was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }
@@ -69,6 +69,6 @@ class WeekplansController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def weekplan_params
-      params.require(:weekplan).permit(:week, :plan)
+      params.require(:weekplan).permit(:plan)
     end
 end
