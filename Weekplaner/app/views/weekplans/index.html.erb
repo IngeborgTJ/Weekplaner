@@ -1,15 +1,18 @@
 <h1> My to do list:</h1>
 
+<h3>Old Plans: "August - November 2014 - Forbredelser til ny jobb - Egenutvikling" - Completed</h3>
+
 <table>
   <thead>
     <tr>
-      <th> Plans: </th>
-      <th></th>
+      <th> </th>
       <th></th>
       <th></th>
     </tr>
   </thead>
 
+<h2> New plans:</h2>
+  
   <tbody>
     <% @weekplans.each do |weekplan| %>
       <tr>
@@ -21,7 +24,5 @@
     <% end %>
   </tbody>
 </table>
-
-<br>
 
 <%= link_to 'New plan', new_weekplan_path %>
