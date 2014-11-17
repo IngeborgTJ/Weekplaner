@@ -7,6 +7,10 @@ This is an app made with Ruby on Rails to help me organize my tasks better throu
 
 Click on the link to get a walkthrough on how you install Ruby on Rails on your Mac: https://gorails.com/setup/osx/10.9-mavericks
 
+To get a updated version of this app go to:
+
+https://github.com/IngeborgTJ/Weekplaner-2.0
+
 
 Norsk:
 
@@ -14,3 +18,6 @@ Jeg har her laget en app med Ruby on Rails som skal hjelpe meg å holde styr på
 
 Klikk på linken for å få en gennomgang av hvordan du Ruby on Rails på din Mac: https://gorails.com/setup/osx/10.9-mavericks
 
+For å få en oppdatert versjon av denne appen, gå til: 
+
+https://github.com/IngeborgTJ/Weekplaner-2.0 
